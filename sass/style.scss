@@ -1,0 +1,49 @@
+$color1: #3498db;
+$color2: #fff;
+$color3: #2980b9;
+
+
+
+
+body {
+	background-color: $color1;
+    font-family: 'Open Sans', sans-serif;	
+    margin: 0;
+}
+.hero {
+    height: 400px;
+    line-height: 360px;
+    background: #ccc url(https://static.pexels.com/photos/7640/pexels-photo.jpg) 0/cover no-repeat fixed;
+}
+.container {
+    width: 80%;
+	max-width: 700px;
+	margin: 20px auto;
+	border-radius: 4px;
+	background-color: $color2;
+	padding: 20px;
+}
+.nav {
+	text-align: center;
+	background: $color1;
+	a {
+		padding: 10px;
+		color: $color2;
+		text-decoration: none;
+		display: inline-block;
+		&:hover {
+			color: $color3;
+		}
+	}
+}
+
+h1, .footer {
+	text-align: center;	
+    color: $color2;
+    margin: 0;
+    padding: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+.footer {
+    background: $color3;
+}
